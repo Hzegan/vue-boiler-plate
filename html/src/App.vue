@@ -1,10 +1,12 @@
 <template>
-  
+  <v-app>
+    <h2>test</h2>
+  </v-app>
 </template>
 
 <script>
 
-import Nui from './utils/Nui';
+// import Nui from './utils/Nui';
 // import moment from 'moment'
 // import Velocity from 'velocity-animate'
 
@@ -23,10 +25,10 @@ export default {
     window.removeEventListener('message', this.listener);
   },
   beforeMount() {
-    if( this.Development === true){
-      //TODO : DEV PARAMETER
-      
-    }
+    // if( this.Development === true){
+    //   //TODO : DEV PARAMETER
+    //
+    // }
 
   },
   mounted() {
@@ -38,20 +40,20 @@ export default {
     this.listener = window.addEventListener(
         'message',
         event => {
-          if(event.data.action === "someaction"){
-
-          }
+          // if(event.data.action === "someaction"){
+          //
+          // }
 
         },
         false,
     );
   },
-  methods: {
-    // some methods
-  },
-  computed: {
-    // some computed
-  }
+  // methods: {
+  //   // some methods
+  // },
+  // computed: {
+  //   // some computed
+  // }
 };
 </script>
 

@@ -9,14 +9,8 @@
     "prettify": "prettier --write **/*.{js,vue}"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.2",
     "core-js": "^2.6.5",
     "ifdef-loader": "^2.1.2",
-    "jquery": "^3.6.1",
-    "moment": "^2.29.4",
-    "popper.js": "^1.16.1",
-    "velocity-animate": "^1.5.2",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -28,8 +22,8 @@
     "eslint-plugin-vue": "^5.0.0",
     "html-webpack-inline-source-plugin": "0.0.10",
     "prettier": "^1.18.2",
-    "sass": "~1.32.0",
-    "sass-loader": "^10.0.0",
+    "sass": "^1.22.7",
+    "sass-loader": "^7.1.0",
     "serialize-javascript": "^4.0.0",
     "vue-template-compiler": "^2.6.10"
   },

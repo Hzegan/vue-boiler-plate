@@ -5,7 +5,7 @@ export default {
     /// #endif
 
     /* eslint-disable no-unreachable */
-    return await fetch(`https://em-scoreboard/${event}`, {
+    return await fetch(`https://${GetParentResourceName()}/${event}`, {
       method: 'post',
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
