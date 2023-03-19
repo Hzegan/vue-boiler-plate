@@ -1,0 +1,3 @@
+RegisterNUICallback("somecallback", function()
+    
+end)
